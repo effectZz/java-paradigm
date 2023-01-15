@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+    
+    <html>
+      <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="appName" content="wujing-frontend">
+        <meta name="pageKey" content="d_wujing_incareer_guest_home_page">
+        <meta name="trk" content="wujing">
+        <link rel="shortcut icon" href="https://static.licdn.cn/sc/h/au4z0xi7dal10nxskplwtsjva" type="image/x-icon">
+        <link rel="dns-prefetch" href="//static.licdn.cn">
+        <link rel="preconnect" href="//static.licdn.cn" crossorigin>
+        <title>登录 | 领英职场</title>
+
+        
+      <link rel="stylesheet" href="https://static.licdn.cn/sc/h/65qzkvcjq34e1wggin5fymnw7">
+    
+      </head>
+
+      <body>
+        
+      <div class="in-jobs guest-home-page">
+        <header class="page-header">
+          <div class="content-center">
+            <img class="logo" data-delayed-url="https://static.licdn.cn/sc/h/drho7mcdmlq00c065r85h5vc8" alt="InCareer">
+            <a id="top-login-button" href="/login?session_redirect=https%3A%2F%2Fwww.linkedin.cn%2Fincareer" class="header-button login-button" data-control-name="login_btn">登录</a>
+            <a id="top-signup-button" href="/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.cn%2Fincareer" class="header-button join-now-button" data-control-name="signup_btn">立即加入</a>
+              <a class="about-button" id="about_us_button" href="/incareer-guest/about-us?trk=guest_home_nav" data-tracking-will-navigate data-tracking-control-name="about_us">关于我们</a>
+          </div>
+        </header>
+        <section class="content">
+          <div class="content-center">
+            <div class="clearfix">
+              <div class="f-left">
+                <h2 class="headline">一个专为中国职场人打造的职业发展平台</h2>
+                <form action="/uas/login-submit" method="post" id="loginForm">
+                  <div class="login-form">
+                    <code id="i18nFormErrorMessageSessionKeyRequired" style="display: none"><!--"请输入邮箱地址或手机号码。"--></code>
+                    <code id="i18nFormErrorMessageSessionKeyTooLong" style="display: none"><!--"邮箱地址或手机号码必须为 3 至 128 个字符之间。"--></code>
+                    <code id="i18nFormErrorMessageSessionKeyInvalidFormat" style="display: none"><!--"请输入有效的邮箱地址或手机号码。"--></code>
+                    <code id="i18nFormErrorMessageSessionPasswordRequired" style="display: none"><!--"请输入密码。"--></code>
+                    <code id="i18nFormErrorMessageSessionPasswordTooShort" style="display: none"><!--"密码须至少 6 个字符。"--></code>
+                    <code id="i18nFormErrorMessageSessionPasswordTooLong" style="display: none"><!--"密码不能超过 200 个字符。"--></code>
+                    <code id="i18nFormErrorMessageSessionPasswordRetryTimesLimit" style="display: none"><!--"为保障账号安全，我们限制短时间内多次尝试。如果确实是您的账号，请 10 分钟之后再试。"--></code>
+                    <label for="user-phone" class="input-label">邮箱或手机</label>
+                    <input id="session_key" name="session_key" class="input" type="text">
+                    <div class="password-input-wrapper">
+                      <label for class="input-label">密码 (至少 6 个字符)</label>
+                      <input id="session_password" name="session_password" class="input" type="password">
+                      <button id="passwordToggleButton" class="show-pass" data-text-show="显示" data-text-hide="隐藏">
+                        显示
+
+                      </button>
+                    </div>
+                    <p id="loginFormAlert" class="login-form__error-message hidden"></p>
+                    <div class="login-misc">
+                      <a href="/checkpoint/rp/request-password-reset" class="forget-password">忘记密码？</a>
+                      <span class="sign-up-notice">
+                        没有领英职场帐号？
+                        <a href="/signup/cold-join" class="join-now">立即加入</a>
+                      </span>
+                    </div>
+                    <input name="loginCsrfParam" value="7a3c9973-8c86-40ba-866d-8ae305fcb50c" type="hidden">
+                    <input name="session_redirect" value="https://www.linkedin.cn/incareer" type="hidden">
+                    <button class="login-button" type="submit">登录</button>
+                  </div>
+                </form>
+                <div class="qrcode clearfix">
+                  <img data-delayed-url="https://static.licdn.cn/sc/h/a68mt2916gze2a01k0d5xrydc" alt="qrcode" class="qr-img">
+                  <div class="qr-description">
+                    扫一扫下载
+                    <br>
+                    领英职场 APP
+                  </div>
+                  <div class="qr-popup">
+                    <div class="qr-popup__wrapper">
+                      <img data-delayed-url="https://static.licdn.cn/sc/h/a68mt2916gze2a01k0d5xrydc" alt="qrcode" class="qr-popup__img">
+                    </div>
+                    <div class="qr-popup__description">
+                      扫一扫下载
+                      <br>
+                      领英职场 APP
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="f-right">
+                <img data-delayed-url="https://static.licdn.cn/sc/h/ckto8c2hyah79xdh4y5uhn0yk" alt class="download-picture">
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="content-center">
+          
+    <footer class="li-footer">
+      <ul class="li-footer__list">
+        <li class="li-footer__item">
+          <img class="li-footer__copy-logo" data-delayed-url="https://static.licdn.cn/sc/h/5khphbrbk461rgdzzvnjh4cyt">
+          <span class="li-footer__copy-text">© 2023</span>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.cn/incareer-guest/about-us?trk=footer_footer-about" data-tracking-control-name="footer_footer-about" data-tracking-will-navigate class="li-footer__item-link">
+            关于
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.cn/legal/l/incareer-user-agreement?trk=footer_footer-user-agreement" data-tracking-control-name="footer_footer-user-agreement" data-tracking-will-navigate class="li-footer__item-link">
+            用户协议
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.cn/legal/privacy-policy?trk=footer_footer-privacy-policy" data-tracking-control-name="footer_footer-privacy-policy" data-tracking-will-navigate class="li-footer__item-link">
+            隐私政策
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.com/legal/l/incareer-china-privacy-policy-addendum?trk=footer_footer-privacy-addendum" data-tracking-control-name="footer_footer-privacy-addendum" data-tracking-will-navigate class="li-footer__item-link">
+            隐私政策附录
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.cn/legal/copyright-policy?trk=footer_footer-copyright-policy" data-tracking-control-name="footer_footer-copyright-policy" data-tracking-will-navigate class="li-footer__item-link">
+            版权政策
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://brand.linkedin.cn/policies?trk=footer_footer-brand-policy" data-tracking-control-name="footer_footer-brand-policy" data-tracking-will-navigate class="li-footer__item-link">
+            品牌政策
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.cn/psettings/guest-controls?trk=footer_footer-guest-controls" data-tracking-control-name="footer_footer-guest-controls" data-tracking-will-navigate class="li-footer__item-link">
+            访客设置
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.cn/legal/professional-community-policies?trk=footer_footer-community-guide" data-tracking-control-name="footer_footer-community-guide" data-tracking-will-navigate class="li-footer__item-link">
+            社区准则
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.com/login?fromSignIn=true&amp;trk=guest_homepage-basic_nav-header-signin" data-tracking-control-name="footer_footer-lms-login" data-tracking-will-navigate class="li-footer__item-link">
+            企业登录
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <div class="li-footer__action__select-language">
+            <label for="li-footer-select_language" class="li-footer__label t-12 t-normal mb1 mt0">
+                语言
+              <icon class="li-footer__language-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" preserveaspectratio="xMinYMin meet" focusable="false" class="lazy-loaded"><path d="M8 9l5.93-4L15 6.54l-6.15 4.2a1.5 1.5 0 01-1.69 0L1 6.54 2.07 5z" fill="currentColor"></path></svg>
+              </icon>
+            </label>
+            <select id="li-footer-select_language" class="li-footer__language-selection-dropdown t-12 t-black--light t-bold">
+              <option value="en_US" lang="en-us">
+                English (English)
+              </option>
+              <option value="zh_CN" lang="zh-cn">
+                简体中文 (Chinese (Simplified))
+              </option>
+            </select>
+          </div>
+        </li>
+      </ul>
+      <ul class="li-footer__list li-footer__list--china">
+          <li class="li-footer__item ">
+            <a href="https://beian.miit.gov.cn" data-tracking-control-name="footer_china-filing-info-link" target="_blank" class="li-footer__item-link">
+              京 ICP 备 14023203 号
+            </a>
+          </li>
+          <li class="li-footer__item">
+            京 ICP 证 150024号
+          </li>
+          <li class="li-footer__item">
+            <img data-delayed-url="https://static.licdn.cn/sc/h/cbn91jpp9vuid7olk3y6qmbpj" alt="中国 ICP 备案" class="li-footer__item-img" aria-hidden="true">
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11030102010420" data-tracking-control-name="footer_china-filing-info-link" target="_blank" class="li-footer__item-link">
+              京公网安备 11030102010420 号
+            </a>
+          </li>
+          <li class="li-footer__item">
+            <a href="https://www.linkedin.cn/wukong-web/icp/hrLicense" data-tracking-control-name="footer_china-filing-info-link" target="_blank" class="li-footer__item-link">
+              人力资源服务许可证 110401715069 号
+            </a>
+          </li>
+          <li class="li-footer__item">
+            <a href="https://www.linkedin.cn/wukong-web/icp/businessLicense" data-tracking-control-name="footer_china-filing-info-link" target="_blank" class="li-footer__item-link">
+              营业执照
+            </a>
+          </li>
+          <li class="li-footer__item">
+            <address>
+              <p class="li-footer__item-address">北京领音信息技术有限公司</p>
+              <p class="li-footer__item-address">北京经济技术开发区地盛北街 1 号 18 号楼 8 层 817 室</p>
+              <p class="li-footer__item-address">
+                客服邮箱: <a href="mailto:cs@lingying.com">cs@lingying.com</a>
+              </p>
+              <p class="li-footer__item-address">客户服务热线: 4000106277</p>
+              <p class="li-footer__item-address">
+              举报邮箱: <a href="mailto:jubao@lingying.com">jubao@lingying.com</a>
+              </p>
+            </address>
+          </li>
+      </ul>
+    </footer>
+  
+          </div>
+        </footer>
+      </div>
+      <script src="https://static.licdn.cn/sc/h/d2q8cat16hndw5wjfhguenmyv" async type="text/javascript"></script>
+    
+      </body>
+    </html>
+  
+  
